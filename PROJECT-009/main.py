@@ -12,13 +12,12 @@ COLORS = {
 
 # === Укажи пути к своим скриптам ===
 scripts = {
-    "datavirus": "/storage/emulated/0/projects/viruses/PROJECT-ALPHA-009/res/dataadder.py",
-    "editorvirus": "/storage/emulated/0/projects/viruses/PROJECT-ALPHA-009/res/dataeditor.py",
-    "deletevirus": "/storage/emulated/0/projects/viruses/PROJECT-ALPHA-009/res/deletedata.py",
-    "keyvirus": "/storage/emulated/0/projects/viruses/PROJECT-ALPHA-009/res/keylocker.py",
-    "renamevirus": "/storage/emulated/0/projects/viruses/PROJECT-ALPHA-009/res/renamefiles.py"
+    "datavirus": "res/dataadder.py",
+    "editorvirus": "res/dataeditor.py",
+    "deletevirus": "res/deletedata.py",
+    "keyvirus": "res/keylocker.py",
+    "renamevirus": "res/renamefiles.py"
 }
-
 def print_menu(color="cyan"):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(COLORS[color] + """
