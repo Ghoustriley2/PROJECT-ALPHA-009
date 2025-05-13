@@ -1,5 +1,5 @@
 # PROJECT-ALPHA-009 - инструкция.
-    ### подробная информация:
+---
 **developer: ghoustriley2 X ChatGPT** **made on: python**
 **project class: VIRUS**
 ---
